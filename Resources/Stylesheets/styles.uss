@@ -1,0 +1,46 @@
+﻿
+*
+{
+    font-size : 12;
+    font-style: normal;
+}
+
+Label
+{
+    background-color: rgb(80,80,80);
+    color : rgb(255,255,255);
+    text-alignment: MiddleLeft;
+    width: 140;
+}
+
+.container
+{
+    background-color: rgb(80,80,80);
+}
+
+#row1
+{
+    flex-direction: row;
+}
+
+#row2
+{
+    flex-direction: row;
+}
+
+TextField
+{
+    flex-grow: 1;
+    text-alignment: MiddleLeft;
+}
+
+TextField:hover
+{
+    background-color: rgb(255,255,0);
+}
+
+#column
+{
+    flex-direction: column;
+    height: 300;
+}
